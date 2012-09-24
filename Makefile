@@ -2,3 +2,7 @@
 FortCusterNavigator.svg: FortCusterNavigator.hs
 	runhaskell -W FortCusterNavigator.hs
 
+.PHONY: clean
+clean:
+	-rm FortCusterNavigator.svg
+
